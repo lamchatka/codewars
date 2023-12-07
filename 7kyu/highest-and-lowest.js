@@ -17,4 +17,7 @@ function highAndLow(numbers){
     return Math.max(...arr) + " " + Math.min(...arr);
 }
 
-console.log("solution: ", highAndLow("1 2 3 4 5"))
+console.log("solution-1: ", highAndLow("1 2 3 4 5"))
+console.log("solution-2: ", highAndLow("1 2 -3 4 5"))
+console.log("solution-3: ", highAndLow("1 9 3 4 -5"))
+
