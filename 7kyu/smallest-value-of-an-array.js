@@ -10,12 +10,12 @@
 
 // SOLUTION:
 function min(arr, toReturn) {
-    if (toReturn == 'index'){
-      return arr.indexOf(Math.min(...arr));
+    if (toReturn == 'index') {
+        return arr.indexOf(Math.min(...arr));
     }
     else {
-      return Math.min(...arr)
+        return Math.min(...arr)
     }
 }
-console.log("Solution-1:", min([1,2,3,4,5], 'value'));
-console.log("Solution-2:", min([1,2,3,4,5], 'index'));
+console.log("Solution-1:", min([1, 2, 3, 4, 5], 'value'));
+console.log("Solution-2:", min([1, 2, 3, 4, 5], 'index'));
