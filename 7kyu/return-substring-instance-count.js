@@ -13,15 +13,15 @@
 
 
 // SOLUTIONS: 
-function solution1(fullText, searchText){
+function solution1(fullText, searchText) {
     let count = 0;
     let pos = fullText.indexOf(searchText);
     while (pos !== -1) {
-        count++; 
+        count++;
         pos = fullText.indexOf(searchText, pos + 1);
-  }
-  return count;
-  
+    }
+    return count;
+
 }
 
 function solution2(fullText, searchText) {
@@ -32,12 +32,12 @@ function solution2(fullText, searchText) {
 }
 
 // Solution1
-console.log("Solution-1: ", solution1('abcdeb','b'), 2);
-console.log("Solution-2: ", solution1('abc','b'), 1);
-console.log("Solution-3: ", solution1('abbc','bb'), 1);
+console.log("Solution-1: ", solution1('abcdeb', 'b'), 2);
+console.log("Solution-2: ", solution1('abc', 'b'), 1);
+console.log("Solution-3: ", solution1('abbc', 'bb'), 1);
 
 // Solution2
 
-console.log("Solution-1: ", solution2('abcdeb','b'), 2);
-console.log("Solution-2: ", solution2('abc','b'), 1);
-console.log("Solution-3: ", solution2('abbc','bb'), 1);
+console.log("Solution-1: ", solution2('abcdeb', 'b'), 2);
+console.log("Solution-2: ", solution2('abc', 'b'), 1);
+console.log("Solution-3: ", solution2('abbc', 'bb'), 1);
